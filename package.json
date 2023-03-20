@@ -1,6 +1,6 @@
 {
-  "name": "ts-template",
-  "version": "1.0.0",
+  "name": "minimart-api",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,8 @@
     "start": "node dist/server.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Mantas Klymantas",
+  "license": "MIT",
   "devDependencies": {
     "@types/cors": "^2.8.13",
     "@types/express": "^4.17.17",
