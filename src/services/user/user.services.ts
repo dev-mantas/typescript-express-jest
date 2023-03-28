@@ -50,7 +50,7 @@ export async function retrieveCommonStudents(req: Request, res: Response) {
           return res.status(400).json({ message: 'Student email is required' });
         }
     
-        await User.updateOne({ email: studentEmail, role: 'student' }, { suspended: true });
+        await userSchema.updateOne({ email: studentEmail, role: 'student' }, { suspended: true });
     
         res.status(204).send();
       } catch (error) {
